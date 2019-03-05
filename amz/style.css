@@ -1,0 +1,230 @@
+body{
+    background-color: rgb(213, 231, 240);
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+header{
+    font-size: 16px; background-color: #24333f;
+    position: relative;
+    top: 0;
+    right: 0;
+    left: 0;
+    color: #ffffff;
+    z-index: 99;
+}
+header #left{
+    display: flex;
+    align-items: center
+}
+
+header #left span, img{
+    margin-top: 5px;
+}
+
+
+header #right{
+    position: absolute;
+    top: 0%;
+    right: 0;
+    display: flex;
+}
+header #right h4{
+    margin-top: 15px;
+}
+header #left img{padding: 0px 10px;}
+header #right h4{padding: 0px 10px;}
+
+header #srch {
+    display: flex;
+    justify-content: center
+}
+header #srch #txt{
+    width: 85vw;
+    border: 1px solid white;
+    padding-left: 10px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+header #srch #icn{
+    background-color: yellowgreen;
+    border: 1px solid white;
+    border-radius: 0px 5px 5px 0px;
+}
+
+
+header #cat p{
+    padding :0px 10px;
+}
+
+header #cat h3{
+    margin-top: 0px;
+    display: inline-flex;
+    padding: 0px 10px;
+}
+
+header #loc{
+    background-color: rgb(64, 80, 60);
+    padding:1px;
+    border-top: 1px solid gray;
+}
+
+main nav #products{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color: #fff;
+    padding-top: 5px;
+    margin-top: 5px;
+}
+
+main #prd img{
+    width: 40px;
+    height: 40px;
+}
+
+main #bnr{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+}
+
+main #bnr img{
+    height: 170px;
+}
+
+main #sgn{
+    background-color: #fff;
+    text-align: center;
+    margin: -10px;
+}
+
+main #sgn button{
+    background-color: orange;
+    width: 90vw;
+    text-align: center;
+    /* padding-left: 20px; */
+    height: 50px;
+    font-size: 23px;
+    border:  none;
+    border-radius: 7px;
+}
+
+main #sgn h3{
+    padding-top: 5px;
+}
+
+main #sgn p{
+    padding-bottom: 5px;
+}
+
+main #relView{  background-color: #fff;}
+
+main #relView h3{
+    padding: 10px 0px 0px 10px;
+}
+
+main #relView #rel1 img{
+    width: 60px;
+    height: 60px;
+  
+
+}
+
+main #relView #rel1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid silver;
+}
+
+main #lap{
+    background-color: #fff;
+
+}
+main #lap #lap1{
+    display: flex;
+    justify-content: space-between;
+}
+
+main #lap #lap1 img{
+    /* width: calc(100% - 5px)/2; */
+   width: 49vw;
+   height: 250px;
+}
+
+main #bag{
+    background-color: #fff;
+}
+main #bag img{
+    width: 100vw;
+}
+main #bag h3, #budget h3{ padding: 10px 0px 10px 10px;}
+
+main #budget #bud{
+    display: flex;
+    justify-content: space-between;
+}
+main #budget #bud #bud1 img{
+    width: 49vw;
+    /* padding: 5px; */
+}
+main #budget #bud #bud1{
+    font-size: 14px;
+}
+main #budget{
+    background-color: #fff;
+}
+main #budget h3{ padding: 10px 0px 10px 10px; border-bottom: 1px solid silver;}
+
+footer #top{
+    text-align: center;
+    background-color: #35495A;
+    color: #fff;
+    /* padding: 10px 0px 10px 0px; */
+    padding: 10px;
+}
+footer{
+    font-size: 14px;
+}
+
+footer #top{
+    line-height: 0;
+    font-size: 14px;
+}
+
+footer #midf{
+    display: flex;
+    justify-content: space-around;
+    background-color: #24333F;
+    font-size: 14px;
+}
+
+
+footer #midf #mid1 a{
+    text-decoration: none;
+    color: #fff;
+}
+
+footer #midf #mid1{
+    padding-top: 10px;
+    line-height: 2;
+    display: flex;
+    flex-flow: column wrap;
+    text-align: left;
+}
+
+footer #last{
+    text-align: center;
+    background-color: #131B23;
+    color: silver;
+    padding: 10px 0px 10px 0px;
+}
+
+footer #last #last2{
+    font-size: 14px;
+    display: flex;
+    justify-content: space-around;
+
+}
